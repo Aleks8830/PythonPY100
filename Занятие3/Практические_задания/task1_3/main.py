@@ -1,7 +1,7 @@
 def incorrect_func(name_arg=[]):
     # name_arg является локальной переменной
     print("Аргумент до изменения", name_arg)
-    name_arg.append(1)
+    name_arg.append(122)
     print("Аргумент после изменения", name_arg)
 
 
@@ -17,7 +17,7 @@ def correct_func(name_arg=None):
     if name_arg is None:
         name_arg = []
     print("Аргумент до изменения", name_arg)
-    name_arg.append(1)
+    name_arg.append(123)
     print("Аргумент после изменения", name_arg)
 
 

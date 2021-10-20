@@ -1,4 +1,4 @@
-def pow_func(base, pow_=2):
+def pow_func(base, pow_=5):
     return base ** pow_
 
 
