@@ -26,6 +26,6 @@ if __name__ == "__main__":
         "Никитин",
         "Соловьёв"
     ]
-    for index, value  in enumerate(surname_list,1):
-        print (index,value)
+    for index, value in enumerate (surname_list,1):
+        print(index,value)
     # TODO распечатать фамилии и их номера
