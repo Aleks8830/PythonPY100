@@ -10,7 +10,7 @@ files:
       length: 38
       offset: 152
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '[i ** 2 for i in range(n)]'
   text: |
